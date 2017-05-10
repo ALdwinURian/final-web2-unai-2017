@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+}
+body {
+  background-color: violet;
+  padding: 20px 20px 100px 20px;
+  font-family: 'Constantia', sans-serif;
+}
+a, a:hover {
+  text-decoration: none;
+}
+.random {
+  border-radius: 0 4px 4px 0;
+}
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+.header.h1 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.search-row {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  display: inline-block;
+  width: 100%;
+}
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: -4px;
+}
